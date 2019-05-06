@@ -1,0 +1,44 @@
+# Site
+name: "Invizi Network"
+title: "Invizi Network"
+description: "Consumer Mutual Aid Network"
+meta_description: ""
+logo: 'assets/images/logo-width-tranparent.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 12
+baseurl: '/'
+email: 'victor@invizi.network'
+google_analytics: 'UA-139388360-1'
+# disqus: 'demowebsite'
+# sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+
+# Authors
+authors:
+  victor:
+    name: Victor
+    display_name: Victor
+    #gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: victor@invizi.network
+    web: https://invizi.network/
+    #twitter: https://twitter.com/wowthemesnet
+    description: "Full stack developer. Award Winning Startup Tech Founder"
+  
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+        
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge
